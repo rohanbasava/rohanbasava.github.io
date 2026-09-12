@@ -1,0 +1,14 @@
+{
+  "name": "rohan-basava-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio site for Rohan Basava. Zero runtime dependencies, zero build dependencies.",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "check": "node tools/check.mjs",
+    "serve": "node tools/serve.mjs",
+    "start": "npm run build && npm run serve"
+  },
+  "engines": { "node": ">=18" }
+}
